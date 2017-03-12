@@ -1,0 +1,228 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 20px 15px 20px;
+}
+
+.footer {
+    background-color: #4DB2EC;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footer img {
+    width: 40%;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.admin-navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #563d7c;
+}
+
+.admin-navbar .navbar-nav > li > a {
+    font-weight: 500;
+    color: #563d7c;
+}
+
+.bs-docs-header .container{
+    display: none;
+}
+
+.bs-docs-header, .bs-docs-masthead {
+    position: relative;
+    padding: 30px 0;
+    color: #cdbfe3;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    background-color: #6f5499;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+    background-image: -webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
+    background-image: -o-linear-gradient(top,#563d7c 0,#6f5499 100%);
+    background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+    background-repeat: repeat-x;
+    padding-top: 60px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.bs-docs-header{
+    padding: 25px;
+}
+.bs-docs-header h1 {
+    color: #fff;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.form-horizontal-backend {
+    border: 1px solid #337ab7;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+#carbonads-container{
+    display: none;
+}
+
+a.approve-button {
+    margin-left: 12px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.kv-first > .kv-tree-list > .kv-node-detail > .kv-node-icon.kv-icon-child {
+    display: none;
+}
+
+.kv-first > .kv-tree-list > .kv-node-detail > .kv-node-icon.kv-icon-parent,
+.kv-first > .kv-tree-list > .kv-node-detail > .kv-node-icon .kv-node-opened {
+    display: inline;
+}
+
+.kv-first > .kv-tree-list > .kv-node-indicators > .kv-node-toggle {
+    display: inline;
+}
+
+.kv-first ul li:last-child > ul {
+    box-shadow: -1px 0px 0px white;
+}
+
+.kv-tree > li:last-child ul,
+.kv-first ul li:last-child ul {
+    margin-bottom: -0.75em;
+    padding-bottom: 0.75em;
+}
+
+.kv-tree li.kv-first {
+    border-bottom: 1px solid white;
+}
+
+.col-sm-3 .kv-tree-container{
+    height: 600px !important;
+}
+
+.grid-view .panel {
+    overflow: hidden;
+}
+
+.calendar-detail-status span{
+    font-size: 15px;
+}
+
+.box.box-primary {
+    border-top-color: #3c8dbc;
+}
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+}
+.box-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.btn-info {
+    background-color: #00c0ef;
+    border-color: #00acd6;
+}
