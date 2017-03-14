@@ -55,7 +55,7 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        return $this->redirect(Yii::$app->urlManager->createUrl(['cart']));
+        return $this->redirect(Yii::$app->urlManager->createUrl(['news']));
     }
 
     public function actionLogin()
